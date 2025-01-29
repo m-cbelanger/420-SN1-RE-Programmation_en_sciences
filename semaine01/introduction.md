@@ -68,7 +68,8 @@ Cette section sera souvent mise à jour après le dernier cours de la semaine.
 ![unzip](img/programme.png)
 
 
-# Semaine 1 cours 2
+# Exercices:
+- page 27 # 1 à 11 (il y a une petite erreur dans le corrigé du numéro 3)
 
-Début du chapitre 2
+
 
