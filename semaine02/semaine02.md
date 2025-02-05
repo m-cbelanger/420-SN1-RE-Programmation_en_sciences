@@ -19,3 +19,4 @@ Ce qu'on a vu:
 
 - page 39 # 1 à 9
 - page 41 # 10 et 11 sont facultatifs
+- page 45 # 1 à 4
