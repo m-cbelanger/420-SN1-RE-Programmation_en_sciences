@@ -17,7 +17,7 @@ b) À la page 69 du manuel, on explique comment faire un tirage au sort. Piger l
 5. Faire la fonction qui prend les 3 paramètres d'une fonction quadratique et qui retourne le ou les 0. retourner "aucun" s'il n'y en a pas.
 
 
-6. À l'aide de plusieurs mesures, on a modéliser la marée à un port maritime de France. Le modèle suivi par les données est le suivant: $h(t)=5.9sin(\pi t/6 -1.97) +6.9$
+6. À l'aide de plusieurs mesures, on a modélisé la marée à un port maritime de France. Le modèle suivi par les données est le suivant: $h(t)=5.9sin(\pi t/6 -1.97) +6.9$
 
 a) Faites une fonction qui prend l'heure (entière) et qui retourne la hauteur de la marrée (en mètres).
 
