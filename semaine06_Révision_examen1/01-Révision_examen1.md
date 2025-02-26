@@ -114,30 +114,3 @@ Dans les notes en ligne (github):
 ## Question 3
 
 Écrire une fonction qui prend la taille des 3 côtés d'un triangle et qui retourne le type du triangle: équilatéral, isocèle ou scalène. Un triangle équilatéral a tous les côtés égaux, isocèle a 2 de ses 3 côtés égaux et scalène n'a pas de côtés égaux. Il fut d'abord vérifier si un triangle est plausible: il faut que la somme de 2 des côtés soit supérieur à la longueur de l'autre côté. Tester la fonctions avec minimalement autant de nombres que de possibilités.
-
-<br>
-<br>
-<br>
-<br>
-
-# Solutions
-
-## Question 3
-
-```py
-def triangle(a,b,c):
-    if a + b > c and a + c > b and b + c > a:
-        if a == b and b == c:
-            return "équilatéral"
-        elif a == b or a == c or b == c:
-            return "isocèle"
-        else:
-            return "scalène"
-    else:
-        return "Les mesures ne sont pas possibles pour un triangle"
-
-print(triangle(5,5,3))
-print(triangle(7,9,12))
-print(triangle(7,7,7))
-print(triangle(7,9,1))
-```
