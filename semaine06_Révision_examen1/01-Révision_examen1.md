@@ -114,3 +114,15 @@ Dans les notes en ligne (github):
 ## Question 3
 
 Écrire une fonction qui prend la taille des 3 côtés d'un triangle et qui retourne le type du triangle: équilatéral, isocèle ou scalène. Un triangle équilatéral a tous les côtés égaux, isocèle a 2 de ses 3 côtés égaux et scalène n'a pas de côtés égaux. Il fut d'abord vérifier si un triangle est plausible: il faut que la somme de 2 des côtés soit supérieur à la longueur de l'autre côté. Tester la fonctions avec minimalement autant de nombres que de possibilités.
+
+
+## Question 4
+
+Écrire une fonction qui ne prend rien en paramètre et qui retourne une chaîne de caractère. La fonction fait ceci:
+- Elle pige en nombre au hasard entre 1 et 20
+- Elle demande à l'utilisateur de donner un nombre entre 1 et 20
+- Elle calcule la distance absolue (pas de négatif) entre le nombre pigé et le nombre choisit
+- Elle écrit une phrase qui dit à combien de distance le nombre choisi par la personne se trouve du nombre pigé par l'ordinateur.
+- Elle retourne cette phrase
+
+Faire plusieurs tests

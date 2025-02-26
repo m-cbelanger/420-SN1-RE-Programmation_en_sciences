@@ -78,3 +78,43 @@ print(triangle(7,7,7))
 print(triangle(7,9,1))
 ```
 
+## Question 4
+
+2 solutions possibles:
+
+```py
+import random
+
+def deviner_nombre():
+    nombre_pige = random.randint(1, 20)
+    nombre_utilisateur = int(input("Donne un nombre entre 1 et 20 : "))
+    
+    distance = abs(nombre_pige - nombre_utilisateur)
+    message = f"Ton nombre est à {distance} unité(s) du nombre pigé par l'ordinateur."
+    
+    return message
+
+# Test 
+print(deviner_nombre())
+```
+
+Si on ne connais pas abs, on peut faire:
+
+```py
+import random
+
+def deviner_nombre():
+    nombre_pige = random.randint(1, 20)
+    nombre_utilisateur = int(input("Donne un nombre entre 1 et 20 : "))
+    
+    if nombre_pige - nombre_utilisateur < 0:
+        distance = nombre_utilisateur - nombre_pige
+    else:
+        distance = nombre_pige - nombre_utilisateur
+    message = f"Ton nombre est à {distance} unité(s) du nombre pigé par l'ordinateur."
+    
+    return message
+
+# Test
+print(deviner_nombre())
+```
