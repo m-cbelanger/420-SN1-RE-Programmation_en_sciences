@@ -194,7 +194,7 @@ def don_de_sang(donneur,receveur):
     if donneur != "A" and donneur != "B" and donneur != "AB" and donneur != "O":
         possibilite_don = "Erreur sur l'entrée du groupe donneur"
     elif receveur != "A" and receveur != "B" and receveur != "AB" and receveur != "O":
-        possibilite_don = "Erreur sur l'entrée du groupe donneur"
+        possibilite_don = "Erreur sur l'entrée du groupe receveur"
     else:
         
         if donneur == "O":
