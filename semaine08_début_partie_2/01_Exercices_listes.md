@@ -1,7 +1,8 @@
 # Exercices sur les listes
 
 Dans le livre: page 110 # 1-2-5
-Théorie page 134 (chapitre 4.4)
+
+Théorie page 96 à 100 (chapitre 4.1)
 
 
 Voici quelques exercices simples de manipulation de listes. À tout moment, n'hésitez pas à imprimer la liste en console (print()). Soyez attentifs aux termes utilisés dans les questions.
