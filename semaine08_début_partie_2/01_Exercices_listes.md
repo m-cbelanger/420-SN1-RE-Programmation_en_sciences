@@ -53,7 +53,8 @@ Dans le livre: page 151 # 1-3-5
 
 ### Question 2
 
-a) Définir un array (liste spéciale de numpy) nommé temperature_celsius et qui contient les valeurs suivantes: -5.2,  -3.8,  2.3,  8.7,  15.4,  20.1,  23.3,  22.8,  17.5,  10.2,  3.6, -2.1. Ces valeurs sont les température moyenne fictives pour les 12 mois de l'année dans une région du Canada
+a) Définir un array (liste spéciale de numpy) nommé temperature_celsius et qui contient les valeurs suivantes: -5.2,  -3.8,  2.3,  8.7,  15.4,  20.1,  23.3,  22.8,  17.5,  10.2,  3.6, -2.1. Ces valeurs sont les température moyenne fictives pour les 12 mois de l'année dans une région du Canada.
+
 b) Avec une commande associée aux arrays, vérifiez si oui ou non la taille de l'array est de 12 (pour 12 mois)
 
 c) Quelle est la moyenne de températures pour cette année-là?
@@ -93,7 +94,7 @@ c) Faire une fonction nommée f, qui prend x en paramètre et qui retourne $x^2-
 
 d) Pour chaque valeur de la liste y_1, imprimer si oui ou non, la valeur est supérieure ou égale à 5000.
 
-d) faire une liste y_2_modifiee qui ne garde que les valeurs de y_2 qui sont inférieures à 100.
+e) faire une liste y_2_modifiee qui ne garde que les valeurs de y_2 qui sont inférieures à 100.
 
 
 
