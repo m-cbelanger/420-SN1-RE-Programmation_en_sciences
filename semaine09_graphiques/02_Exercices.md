@@ -14,7 +14,7 @@ import numpy as np
 
 Afficher le graphique des fonctions théoriques suivantes:
 
-a) $f(x) = 3x^2 - 19$ en vert en vous assurant que les axes passent par (0,0) et sont en caractère gras et bleus. Le tracé de la courbe doit être en pointillé avec les bouts ronds. Mettre le label "$f(x) = 3x^2 - 19$" dans la légende. Mettre le titre suivant: "Une superbe fonction" et des titres aux axes (x et y). Les axes doivent aller de -5 à 5.
+a) $f(x) = 3x^2 - 19$ en vert en vous assurant que les axes passent par (0,0) et sont en caractère gras et bleus. Le tracé de la courbe doit être en pointillé avec les bouts ronds. Mettre le label $f(x) = 3x^2 - 19$ dans la légende. Mettre le titre suivant: "Une superbe fonction" et des titres aux axes (x et y). Les axes doivent aller de -5 à 5.
 
 
 b) $g(x) = sin(3x)e^{1/x}$ en orange avec une ligne pleine et des axes qui vont de 1 à 50. On ne peut pas commencer à 0 à cause de la division par 0 dans l'exposant de l'exponentielle.
