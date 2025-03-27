@@ -38,4 +38,4 @@ plt.grid(True)  # Activer la grille
 plt.grid(linestyle='--', linewidth=0.5)  # Personnaliser la grille
 
 plt.show()
-
+```
