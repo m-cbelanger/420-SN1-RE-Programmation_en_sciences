@@ -60,8 +60,9 @@ c) Variante: important pour se rappeler des anciennes notions.
 
 - calculer la moyenne de consommation d'essence et la mettre dans une variable nommée moyenne.
 - calculer le max de consommation d'essence et le mettre dans une variable nommée maxi.
-- faire une liste vide nommée couleurs.
-- parcourir les consommations d'essence. Si elles sont au-dessus de la moyenne, ajouter la moyenne à la liste couleurs. Sinon, ajouter le maxi à la liste de couleur.  
+- calculer la plage (étendue) des données de consommation d'essence (la plus grande valeur moins la plus petite)
+- ajouter une valeur de puissance moteur de 148 à la fin avec une consommation d'essence de 6.7
+ 
 
 
 
