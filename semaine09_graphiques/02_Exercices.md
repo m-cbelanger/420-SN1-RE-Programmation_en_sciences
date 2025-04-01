@@ -62,7 +62,11 @@ c) Variante: important pour se rappeler des anciennes notions.
 - calculer le max de consommation d'essence et le mettre dans une variable nommée maxi.
 - calculer la plage (étendue) des données de consommation d'essence (la plus grande valeur moins la plus petite)
 - ajouter une valeur de puissance moteur de 148 à la fin avec une consommation d'essence de 6.7
- 
 
+d) Faire les étapes suivantes en créant d'abord une nouvelle liste de type array avec les listes précédentes.
+
+- On veux la consommation de tous ces véhicule lorsqu'ils font 1000 km (faire *10 à chaque consommation). Imprimer en console seulement.
+- On veux seulement les consommation qui sont inférieures à 7.5. Mettre dans la variable consommations_legeres.
+- On veut la moyenne des puissances moteurs qui sont de plus de 300. Mettre dans la variable moyenne_moteurs_puissants.
 
 

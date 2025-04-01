@@ -60,7 +60,7 @@ plt.show()
 ```
 
 # Question 3
-# a)
+### a)
 
 ```py
 notes_cegep = [70,80,62,74,87,95,90,77,66,85,75,89,88,62,75,73,89,61,69,92]
@@ -74,4 +74,53 @@ plt.xlabel("notes au cégep")
 plt.ylabel("notes à l'université")
 
 plt.show()
+```
+
+### b)
+```py
+# Question 3b)
+
+puissance_moteur = [201,252,241,304,304,153,184,292,175,185,132,330,340,145,268,240,155,329,148,300,268,132,150,240]
+consommation_essence = [6.6,7.4,5.9,8.6,8.6,6.4,6.4,7.7,7.0,7.2,6.3,9.6,6.7,6.3,7.5,7.0,5.8,8.5,7.0,7.8,8.4,6.4,5.9,6.7]
+
+plt.figure()
+plt.scatter(puissance_moteur, consommation_essence, c= consommation_essence, cmap='jet', marker='D')
+plt.xlabel('puissance moteur (chevaux vapeur)')
+plt.ylabel("consommation d'essence (L/100km)")
+plt.title("Consommation d'essence en fonction \n de la puissance moteur")
+plt.grid(True)
+plt.colorbar()
+plt.show()
+```
+
+### c)
+```py
+# Question 3c)
+
+moyenne = np.mean(consommation_essence)
+print(moyenne)
+
+maxi = np.max(consommation_essence)
+print(maxi)
+
+etendue = np.max(consommation_essence) - np.min(consommation_essence)
+print(etendue)
+
+consommation_essence.append(6.7)
+puissance_moteur.append(148)
+```
+
+### d)
+
+```py
+consommation_essence_2 = np.array(consommation_essence)
+puissance_moteur_2 = np.array(puissance_moteur)
+
+print(consommation_essence_2*10)
+
+consommations_legeres = consommation_essence_2[consommation_essence_2 < 7.5]
+print(consommations_legeres)
+
+moyenne_moteurs_puissants = np.mean(puissance_moteur_2[puissance_moteur_2 > 300])
+print(moyenne_moteurs_puissants)
 ```
