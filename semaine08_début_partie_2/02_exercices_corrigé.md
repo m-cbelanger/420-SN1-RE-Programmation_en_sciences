@@ -134,7 +134,7 @@ def f(x):
 y_2 = f(x)
 print(y_2)
 #d) Pour chaque valeur de la liste y_1, imprimer si oui ou non, la valeur est supérieure ou égale à 5000.
-print(y_1[y_1>=5000])
+print(y_1>=5000)
 
 #e) faire une liste y_2_modifiee qui ne garde que les valeurs de y_2 qui sont inférieures à 100.
 y_2_modifie = y_2[y_2<100]
