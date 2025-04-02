@@ -1,4 +1,4 @@
-# Importer des données externes (fichiers Excel, csv, autre)
+# Importer des données externes 
 
 Note: dans le livre, l'importation de fichiers textes ordinaires (format .txt) est expliqué au chapitre 4.3. Il est nécessaire d'avoir vu le chapitre 3.2 pour y arriver. Nous allons donc explorer une autre façon de faire très intéressante, pour aller chercher de vrais fichiers de données (format csv) et exploiter son contenu.
 
