@@ -75,6 +75,12 @@ liste = data['Temperature'].tolist()
 liste = data.iloc[:, 3].tolist()   
 ``` 
 
+> Note: Lorsqu'on cherche des données en ligne, on a souvent des valeur qui ne sont pas entrées (vides) ou mal entrées. Dans ce cas, on peut utiliser la commande dropna() comme ceci:
+```py
+liste = data['Temperature'].dropna().tolist()
+```
+Cela éliminera les valeurs vides
+
 ### Exercice
 
 Nous allons faire le graphique de la luminosité selon l'heure. Ne pas oublier d'ajouter la librairie pour les graphiques en haut du fichier.
