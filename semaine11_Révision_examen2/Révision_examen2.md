@@ -63,15 +63,18 @@ f)	Présenter le nuage de point du revenu en fonction de la note obtenue. Faire 
 -	un quadrillage
 -	Tout autre ajustement visuel pertinent (aucun mot ne se chevauche, les graduations sont esthétiques et logiques)
 
-g)	Faire un graphique (tracé avec lien entre les points) de la variable Revenu en fonction de la variable Titre. Faire une présentation esthétique en mettant :
+g)	Faire un graphique (tracé avec lien entre les points) de la note obtenue en fonction du titre. Faire une présentation esthétique en mettant :
 -	une couleur différente de la couleur par défaut
 -	des titres aux 2 axes
 -	un titre général
 -	une fenêtre (figure) plus grande que celle par défaut
 -	un quadrillage
--	une légende avec le libellé « revenu des divers films en 100 000 000$».
--	Tout autre ajustement visuel pertinent (aucun mot ne se chevauche, les graduations sont esthétiques et logiques)
+-	une légende avec le libellé « Note des films selon Rotten Tomatoes».
+-	Tout autre ajustement visuel pertinent (aucun mot ne se chevauche, les graduations sont esthétique et lisibles)
 
+h) Combien de films avaient le mot clé "The" dans le titre?
+
+i) Si on ne garde que les films faits avant l'an 2000, quelle serait la moyenne de revenu? 
 
 ### Question 3
 
