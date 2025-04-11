@@ -113,5 +113,5 @@ j) Combien de personnes ont épargné plus que 10$?
 
 k) Ajouter 10% à l'épargne de tout le monde (faire x 1.10 sur tous les montants)
 
-l) Faire une phrase avec toutes les informations de la personne # 5 dans la liste (#6 d'humain).
+l) Faire une phrase avec toutes les informations de la personne # 5 dans la liste (#5 d'humain).
 
