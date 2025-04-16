@@ -176,7 +176,23 @@ liste_mois = filtre['MOIS'].tolist()
 
 8. Faites le nuage de points de la pluie (y) par rapport aux mois (x). Il s'agit ici d'un exercice, les détails ne sont pas précisés, on va minimalement mettre un titre, des titres aux axes, modifier la couleur, modifier les marqueurs et mettre le grillage. Pratiquez-vous également à graduer la couleur selon une carte de couleurs.
 
+Voici le résultat sans modification esthétique:
+```py
+plt.figure()
+plt.scatter(liste_mois, liste_pluie)
+plt.scatter(liste_mois, liste_neige)
+plt.show()
+```
+
 9. Faites le nuage de points de la pluie par rapport à la neige. Il s'agit ici d'un exercice, les détails ne sont pas précisés, on va minimalement mettre un titre, des titres aux axes, modifier la couleur, modifier les marqueurs et mettre le grillage. Pratiquez-vous également à graduer la couleur selon une carte de couleurs.
+
+Voici le résultat sans modification esthétique:
+```py
+plt.figure()
+plt.scatter(liste_mois, liste_pluie)
+plt.scatter(liste_mois, liste_neige)
+plt.show()
+```
 
 10. Faites la moyenne de pluie et affichez-la dans une phrase avec unités de mesure.
 
