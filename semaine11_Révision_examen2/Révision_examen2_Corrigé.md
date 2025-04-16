@@ -95,8 +95,9 @@ print(len(liste_titres))
 # i) Si on ne garde que les films faits avant l'an 2000, quelle serait la moyenne de revenu?
 
 data_filtree2 = data.query('Annee < 2000')
-liste_annees = data_filtree2['Annee'].tolist()
-print(round(np.mean(liste_annees)))
+
+liste_revenus = data_filtree2['Revenu'].tolist()
+print(round(np.mean(liste_revenus),2))
 
 
 #Question 3
