@@ -86,6 +86,17 @@ plt.grid(True)
 plt.legend()
 plt.show()
 
+# h) Combien de films avaient le mot clé "The" dans le titre?
+
+data_filtree = data.query('Titre.str.contains("The",na=False)')
+liste_titres = data_filtree['Titre'].tolist()
+print(len(liste_titres))
+
+# i) Si on ne garde que les films faits avant l'an 2000, quelle serait la moyenne de revenu?
+
+data_filtree2 = data.query('Annee < 2000')
+liste_annees = data_filtree2['Annee'].tolist()
+print(round(np.mean(liste_annees)))
 
 
 #Question 3
