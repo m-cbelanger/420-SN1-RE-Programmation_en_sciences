@@ -7,6 +7,7 @@ temps_minutes = ['00:00', '00:30', '01:00', '01:30', '02:00', '02:30', '03:00', 
 vitesse = [0, 51.2, 79.2, 100.5, 105.3, 104.2, 110.3, 105.6, 102.6, 103, 105.6, 110.5, 111, 118.9, 110.2, 110.2, 108.9, 108, 70.6, 49.6, 0]
 ```
 **Il est demandé d'utiliser des boucles pour toutes les questions sauf la a)**
+
 a) Quelle était la vitesse à 5:30?
 
 b) À combien de reprises la vitesse détectée a été au-dessus de 110 km/h?
@@ -15,7 +16,7 @@ c) Quel est le pourcentage des données récoltées qui sont au-dessus de 110 km
 
 d) Quelle a été la vitesse récoltée la plus élevée?
 
-e) Quelle a été la moyenne de vitesse? L'écart-type?
+e) Quelle a été la moyenne de vitesse? 
 
 f) Faire une liste des vitesses en m/s. La conversion pour passer de km/h à m/s est de diviser les km/h par 3.6. 
 
@@ -34,15 +35,13 @@ a) Vérifier que les listes sont de la bonne longueur, c'est-à-dire 31.
 
 b) Quelles étaient les températures min et max le 15 janvier 2024 à Shawinigan?
 
-c) Combien y a-t-il eu de températures au dessus de 0 en tout?
+c) Combien y a-t-il eu de journées où il y a eu des températures au dessus de 0?
 
 d) Calculer l'écart de température entre le max et le min pour chaque jour. Mettre les résultats dans une nouvelle liste nommée janvier_ecarts
 
-e) Calculer la moyenne et l'écart-type de la liste des écarts de températures. Mettre le résultat dans une phrase complète. Arrondir les chiffres a 2 décimales.
+e) Maintenant, faire une liste janvier_milieu qui se rempli avec le milieu entre la plus haute et la plus basse température pour tous les jours. Le milieu entre 2 valeurs est la somme des valeurs divisée par 2.
 
-f) Maintenant, faire une liste janvier_milieu qui se rempli avec le milieu entre la plus haute et la plus basse température pour tous les jours. Le milieu entre 2 valeurs est la somme des valeurs divisée par 2.
-
-## Question 3
+## Question 3 
 
 Voici des équations chimiques dans des chaînes de caractères affectées dans des variables chimie1 à chimie5:
 ```py
@@ -58,7 +57,7 @@ a) À l'aide d'une boucle, vérifier si l'élément chimique de l'eau (H2O) est 
 
 b) Pour chimie1, trouver l'index du caractère ":". Créer ensuite une variable equation1 qui ne contient que l'équation chimique, sans le texte (donc ce qui est après le symbole : ). Une chaîne de caractère se traite comme un tableau pour parcourir chaque élément.
 
-c) Maintenant, faire ces étapes dans une boucle pour les 5. Mettre les équations dans une liste appelée liste_equations au fur et à mesure.
+c) (facultative, plus difficile) Maintenant, faire ces étapes dans une boucle pour les 5. Mettre les équations dans une liste appelée liste_equations au fur et à mesure.
 
 d) Parcourir tous les caractères de la chaîne chimie1. Compter 3 choses: 
 - le nombre de caractères (sans les espaces).
