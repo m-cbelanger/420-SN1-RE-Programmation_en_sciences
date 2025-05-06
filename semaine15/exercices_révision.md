@@ -39,7 +39,7 @@ a)	Importer le fichier livres.csv dans votre fichier Python.
 
 b)	Calculer combien de pages seraient lues si on lisait tous les livres de la liste qui sont des romans et dont l’auteur est décédé. 
 
-c)	Faire une liste avec tous les noms des auteurs qui ont écrit plus de 30 livres et dont le livre de la liste est un roman. (ne pas tenir compte des filtres des sous-questions précédentes)
+c)	Faire une liste avec tous les noms des auteurs qui ont écrit 15 livres ou plus et dont le livre de la liste est un roman. (ne pas tenir compte des filtres des sous-questions précédentes)
 
 d)	Lequel des livres a le plus de pages? (ne pas tenir compte des filtres des sous-questions précédentes).
 
@@ -47,7 +47,7 @@ e)	Combien de pages y a-t-il en moyenne dans la liste? (ne pas tenir compte des 
 
 f)	Imprimer qui est l’auteur de « La plus grosse poutine du monde » et son nombre de pages.
 
-g)	Présenter le nuage de point du nombre de livre en fonction de l’âge des auteurs. Ne garder que les livres dont l'âge des auteurs est en dessous de la moyenne. Faire une présentation esthétique en mettant :
+g)	Présenter le nuage de points du nombre de livre en fonction de l’âge des auteurs. Ne garder que les livres dont l'âge des auteurs est en dessous de la moyenne. Faire une présentation esthétique en mettant :
 -	une couleur graduée de votre choix, allant de bas en haut
 -	une forme de « marker » différente que celle par défaut
 -	des titres aux 2 axes
@@ -70,7 +70,7 @@ while x < 10:
     saisie = input("Voulez-vous rejouer? Entrer oui pour continuer")
     pige = random.random()
     if pige <= 0.5:
-        compteur_petit = compteur_petit + 1
+        compteur_petits = compteur_petits + 1
     else:
         compteur_grands= compteur_grands + 1
 print("Après 10 essais, on a obtenu {compteur_grands} nombres au-dessus de 0.5 et {compteur_petits} nombres en bas ou égal à 0.5")
