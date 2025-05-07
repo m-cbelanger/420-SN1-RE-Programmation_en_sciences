@@ -148,7 +148,35 @@ Voici des équations chimiques. Faire détecter algorithmiquement si les équati
 chaine1 = "HgO + 2HCl -> HgCl2 + H2O"
 ```
 
+Corrigé:
+```py
+elements_chimiques = ["Hg", "Pb", "As", "Cd", "H2S"]
+chaine1 = "HgO + 2HCl -> HgCl2 + H2O"
 
+for i in range(len(elements_chimiques)):
+    if elements_chimiques[i] in chaine1:
+        print(f"oui, {elements_chimiques[i]} se trouve dans la chaine {chaine1}")
+    else:
+        print(f"non, {elements_chimiques[i]} ne se trouve pas dans la chaine {chaine1}")
+
+noms = ["Joe", "Cyprien", "Tristan", "Alicia", "Nathan"]
+# combien ont un nom qui finit par n
+def question1():
+    compteur = 0
+    for i in range(len(noms)):
+        chaine = noms[i]
+        if chaine[-1] == 'n':
+            compteur = compteur + 1
+    print(compteur)
+
+    compteur = 0
+    for i in range(len(noms)):
+        if noms[i][-1] == 'n':
+            compteur = compteur + 1
+    print(compteur)
+    
+question1()
+```
 
 **Numéro défi**: 
 

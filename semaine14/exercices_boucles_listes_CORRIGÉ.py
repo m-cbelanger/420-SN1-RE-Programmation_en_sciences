@@ -6,12 +6,25 @@ temps_minutes = ['00:00', '00:30', '01:00', '01:30', '02:00', '02:30', '03:00', 
 vitesse = [0, 51.2, 79.2, 100.5, 105.3, 104.2, 110.3, 105.6, 102.6, 103, 105.6, 110.5, 111, 118.9, 110.2, 110.2, 108.9, 108, 70.6, 49.6, 0]
 
 #a) Quelle était la vitesse à 5:30?
+# avec index:
 print("a)")
 mon_index = temps_minutes.index('05:30')
 print(f"La vitesse à 5:30 était {vitesse[mon_index]} km/h")
+# avec boucle:
+for i in range(len(temps_minutes)):
+    if temps_minutes[i] == '05:30':
+        print(f"La vitesse à 5:30 était {vitesse[i]} km/h")
 
 #b) À combien de reprises la vitesse détectée a été au-dessus de 110 km/h?
 print("b)")
+# boucle for i in range:
+nb_vitesse_plus_de_110 = 0
+for i in range(len(vitesse)):
+    if vitesse[i] > 110:
+        nb_vitesse_plus_de_110 = nb_vitesse_plus_de_110 + 1
+print(f"Il y eu {nb_vitesse_plus_de_110} prises de mesures au-dessus de 110 km/h")
+
+# boucle for element in liste
 nb_vitesse_plus_de_110 = 0
 for element in vitesse:
     if element > 110:
