@@ -21,7 +21,7 @@ def question1():
     # b) Les participants qui sont abonnés et qui ont 55 ans et plus ainsi que les participants qui ont moins de 20 ans sont admissibles à un rabais lors de leur prochain achat. Faire une liste qui récupère le nom des personnes qui sont admissibles au rabais. Prendre une boucle pour y arriver et mettre les noms dans une nouvelle liste.
     noms_rabais = []
     for i in range(len(prenoms)):
-        if ages[i] >= 55 or ages[i] < 20:
+        if (ages[i] >= 55 or ages[i] < 20) and abonnement[i] == True:
             noms_rabais.append(prenoms[i])
     print("Les noms des personnes concernées sont: ",noms_rabais)
 
