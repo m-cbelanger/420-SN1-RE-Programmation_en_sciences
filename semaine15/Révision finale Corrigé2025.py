@@ -97,7 +97,7 @@ def question2():
     # Plusieurs autres méthodes possibles
     data_filtree = data.query('style.str.contains("Roman") and decede == "oui"')
     print(data_filtree)
-    pages_filtree = data_filtree['nombre_pages']
+    pages_filtree = data_filtree['nombre_pages'].tolist()
     total_pages = sum(pages_filtree)
     print(f"Au total, {total_pages} pages de romans d'auteurs décédés")
     
