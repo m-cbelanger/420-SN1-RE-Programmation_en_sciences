@@ -142,12 +142,20 @@ def question2():
     -une fenêtre (figure) plus grande que celle par défaut
     -un quadrillage
     '''
-
+    
     age_auteurs = data['age'].tolist()
+    nombre_livres = data['nombre_livres'].tolist()
+    moyenne_age = np.mean(age_auteurs)
+    age_nouveaux = []
+    nombre_livres_nouveaux = []
+    for i in range(len(age_auteurs)):
+        if age_auteurs[i] < moyenne_age:
+            age_nouveaux.append(age_auteurs[i])
+            nombre_livres_nouveaux.append(nombre_livres[i])
     # nombre de livres déjà créée
     
     plt.figure(figsize = (9,6))
-    plt.scatter(age_auteurs,nombre_livres,c=nombre_livres,cmap='ocean', marker = 'D')
+    plt.scatter(age_nouveaux,nombre_livres_nouveaux,c=nombre_livres_nouveaux,cmap='ocean', marker = 'D')
     plt.title("Nombre de livres selon l'âge des auteurs")
     plt.xlabel("Âge")
     plt.ylabel("Nombre de livres")
