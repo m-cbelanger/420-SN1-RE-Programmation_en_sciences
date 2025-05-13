@@ -71,21 +71,19 @@ def question1():
     print(f"Il a fallu parcourir {total} personnes pour rencontrer la 2e qui a moins de 25 ans")
 
     # h) Jeu de devinette! Faites un petit jeu qui demande à l'utilisateur d'entrer un âge. Si l'âge se trouve dans la liste des âges, l'utilisateur gagne. À chaque joute, on doit lui demander s'il veut rejouer. On doit aussi lui laisser un maximum de 5 chances!
-    max_chances = 5
     essais = 0
+    rejouer = 'oui'
     trouve = False
-    while trouve == False and essais < max_chances:
+    while essais < 5 and rejouer == 'oui' and trouve == False:
         devine = int(input("Entre un âge et je te dirai s'il est dans la liste: "))
         essais += 1
         if devine in ages:
-            trouve = True
             print(f"Bravo, tu as trouvé! {devine} ans est bien dans la liste!")
-        elif essais < max_chances:
-            print(f"Il te reste {max_chances - essais} chances de deviner")
-        else:
-            print("Dommage, tu n'as pas trouvé! Aurevoir")
-
-
+            trouver = True
+        elif essais < 5:
+            print(f"Il te reste {5 - essais} chances de deviner")
+            rejouer = input("Voulez-vous rejouer? Oui ou non")
+        
 # Question 2
 def question2():
     # a) Importer le fichier livres.csv dans votre fichier Python.
