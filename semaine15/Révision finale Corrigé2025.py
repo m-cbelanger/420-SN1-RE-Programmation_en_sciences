@@ -79,7 +79,7 @@ def question1():
         essais += 1
         if devine in ages:
             print(f"Bravo, tu as trouvé! {devine} ans est bien dans la liste!")
-            trouver = True
+            trouve = True
         elif essais < 5:
             print(f"Il te reste {5 - essais} chances de deviner")
             rejouer = input("Voulez-vous rejouer? Oui ou non")
@@ -115,7 +115,13 @@ def question2():
     titres = data['titre'].tolist()
     nombre_pages = data['nombre_pages'].tolist()
     pages_max = max(nombre_pages)
+    
+    #2 façons:
     index = nombre_pages.index(pages_max)
+    # ou bien:
+    for i in range(len(titres)):
+        if nombres_pages[i] == pages_max:
+            print(f"{titres[i]}")
     
     print(f"Le livre ayant le plus de pages est {titres[index]} de {auteurs[index]}")
     
