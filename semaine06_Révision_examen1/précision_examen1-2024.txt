@@ -1,6 +1,0 @@
-Dans l'examen 1, 2024:
-
-pas de variable globale ou locale
-pas de question comme 4f) (paramètres par défaut non vu)
-pas de question comme 7 (paramètres par défaut non vu)
-
